@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
-project(Linux_cmd)
+project(Linux_cmd C)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(Linux_cmd main.cpp)
+add_executable(Linux_cmd 01more.c cmake-build-debug/02more.c)

@@ -84,6 +84,12 @@ build CMakeFiles/Linux_cmd.dir/02more.c.o: C_COMPILER__Linux_cmd_Debug /Users/xi
   OBJECT_DIR = CMakeFiles/Linux_cmd.dir
   OBJECT_FILE_DIR = CMakeFiles/Linux_cmd.dir
 
+build CMakeFiles/Linux_cmd.dir/test..c.o: C_COMPILER__Linux_cmd_Debug /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test..c || cmake_object_order_depends_target_Linux_cmd
+  DEP_FILE = CMakeFiles/Linux_cmd.dir/test..c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/Linux_cmd.dir
+  OBJECT_FILE_DIR = CMakeFiles/Linux_cmd.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Linux_cmd
@@ -92,7 +98,7 @@ build CMakeFiles/Linux_cmd.dir/02more.c.o: C_COMPILER__Linux_cmd_Debug /Users/xi
 #############################################
 # Link the executable Linux_cmd
 
-build Linux_cmd: C_EXECUTABLE_LINKER__Linux_cmd_Debug CMakeFiles/Linux_cmd.dir/01more.c.o CMakeFiles/Linux_cmd.dir/02more.c.o
+build Linux_cmd: C_EXECUTABLE_LINKER__Linux_cmd_Debug CMakeFiles/Linux_cmd.dir/01more.c.o CMakeFiles/Linux_cmd.dir/02more.c.o CMakeFiles/Linux_cmd.dir/test..c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
   OBJECT_DIR = CMakeFiles/Linux_cmd.dir
   POST_BUILD = :
