@@ -19,7 +19,7 @@ int see_more();
  * @return
  */
 
-int main( int ac ,char *av[]){
+int main1( int ac ,char *av[]){
     FILE *fp;
     if  ( ac == 1)
         do_more(fp);
@@ -59,15 +59,22 @@ void do_more( FILE *fp )
     }
 }
 
-int see_more(){
-    int c;
-    printf("\\033[7m more? \\033[m");
-    while ((c= getchar()) != EOF){
-        if  ( c == 'q')
+int see_more()
+/*
+ *	print message, wait for response, return # of lines to advance
+ *	q means no, space means yes, CR means one line
+ */
+{
+    int	c;
+
+    printf("\033[7m more? \033[m");		/* reverse on a vt100	*/
+    while( (c=getchar()) != EOF )			/* get response	*/
+    {
+        if ( c == 'q' )			/* q -> N		*/
             return 0;
-        if  ( c == ' ')
-            return PAGELEN;
-        if  ( c == '\n')
+        if ( c == ' ' )			/* ' ' => next page	*/
+            return PAGELEN;		/* how many to show	*/
+        if ( c == '\n' )		/* Enter key => 1 line	*/
             return 1;
     }
     return 0;
