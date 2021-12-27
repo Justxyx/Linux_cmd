@@ -69,19 +69,19 @@ include CMakeFiles/Linux_cmd.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Linux_cmd.dir/flags.make
 
-CMakeFiles/Linux_cmd.dir/01more.c.o: CMakeFiles/Linux_cmd.dir/flags.make
-CMakeFiles/Linux_cmd.dir/01more.c.o: ../01more.c
-CMakeFiles/Linux_cmd.dir/01more.c.o: CMakeFiles/Linux_cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Linux_cmd.dir/01more.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Linux_cmd.dir/01more.c.o -MF CMakeFiles/Linux_cmd.dir/01more.c.o.d -o CMakeFiles/Linux_cmd.dir/01more.c.o -c /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c
+CMakeFiles/Linux_cmd.dir/main.c.o: CMakeFiles/Linux_cmd.dir/flags.make
+CMakeFiles/Linux_cmd.dir/main.c.o: ../main.c
+CMakeFiles/Linux_cmd.dir/main.c.o: CMakeFiles/Linux_cmd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Linux_cmd.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Linux_cmd.dir/main.c.o -MF CMakeFiles/Linux_cmd.dir/main.c.o.d -o CMakeFiles/Linux_cmd.dir/main.c.o -c /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/main.c
 
-CMakeFiles/Linux_cmd.dir/01more.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Linux_cmd.dir/01more.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c > CMakeFiles/Linux_cmd.dir/01more.c.i
+CMakeFiles/Linux_cmd.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Linux_cmd.dir/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/main.c > CMakeFiles/Linux_cmd.dir/main.c.i
 
-CMakeFiles/Linux_cmd.dir/01more.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_cmd.dir/01more.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c -o CMakeFiles/Linux_cmd.dir/01more.c.s
+CMakeFiles/Linux_cmd.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_cmd.dir/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/main.c -o CMakeFiles/Linux_cmd.dir/main.c.s
 
 CMakeFiles/Linux_cmd.dir/02more.c.o: CMakeFiles/Linux_cmd.dir/flags.make
 CMakeFiles/Linux_cmd.dir/02more.c.o: 02more.c
@@ -97,32 +97,32 @@ CMakeFiles/Linux_cmd.dir/02more.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_cmd.dir/02more.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/02more.c -o CMakeFiles/Linux_cmd.dir/02more.c.s
 
-CMakeFiles/Linux_cmd.dir/test.c.o: CMakeFiles/Linux_cmd.dir/flags.make
-CMakeFiles/Linux_cmd.dir/test.c.o: ../test.c
-CMakeFiles/Linux_cmd.dir/test.c.o: CMakeFiles/Linux_cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Linux_cmd.dir/test.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Linux_cmd.dir/test.c.o -MF CMakeFiles/Linux_cmd.dir/test.c.o.d -o CMakeFiles/Linux_cmd.dir/test.c.o -c /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test.c
+CMakeFiles/Linux_cmd.dir/01more.c.o: CMakeFiles/Linux_cmd.dir/flags.make
+CMakeFiles/Linux_cmd.dir/01more.c.o: ../01more.c
+CMakeFiles/Linux_cmd.dir/01more.c.o: CMakeFiles/Linux_cmd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Linux_cmd.dir/01more.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Linux_cmd.dir/01more.c.o -MF CMakeFiles/Linux_cmd.dir/01more.c.o.d -o CMakeFiles/Linux_cmd.dir/01more.c.o -c /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c
 
-CMakeFiles/Linux_cmd.dir/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Linux_cmd.dir/test.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test.c > CMakeFiles/Linux_cmd.dir/test.c.i
+CMakeFiles/Linux_cmd.dir/01more.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Linux_cmd.dir/01more.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c > CMakeFiles/Linux_cmd.dir/01more.c.i
 
-CMakeFiles/Linux_cmd.dir/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_cmd.dir/test.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test.c -o CMakeFiles/Linux_cmd.dir/test.c.s
+CMakeFiles/Linux_cmd.dir/01more.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Linux_cmd.dir/01more.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c -o CMakeFiles/Linux_cmd.dir/01more.c.s
 
 # Object files for target Linux_cmd
 Linux_cmd_OBJECTS = \
-"CMakeFiles/Linux_cmd.dir/01more.c.o" \
+"CMakeFiles/Linux_cmd.dir/main.c.o" \
 "CMakeFiles/Linux_cmd.dir/02more.c.o" \
-"CMakeFiles/Linux_cmd.dir/test.c.o"
+"CMakeFiles/Linux_cmd.dir/01more.c.o"
 
 # External object files for target Linux_cmd
 Linux_cmd_EXTERNAL_OBJECTS =
 
-Linux_cmd: CMakeFiles/Linux_cmd.dir/01more.c.o
+Linux_cmd: CMakeFiles/Linux_cmd.dir/main.c.o
 Linux_cmd: CMakeFiles/Linux_cmd.dir/02more.c.o
-Linux_cmd: CMakeFiles/Linux_cmd.dir/test.c.o
+Linux_cmd: CMakeFiles/Linux_cmd.dir/01more.c.o
 Linux_cmd: CMakeFiles/Linux_cmd.dir/build.make
 Linux_cmd: CMakeFiles/Linux_cmd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Linux_cmd"

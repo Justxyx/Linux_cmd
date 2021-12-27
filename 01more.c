@@ -1,3 +1,7 @@
+//
+// Created by 肖应雄 on 2021/12/27.
+//
+
 #include <stdio.h>
 
 #define PAGELEN 24
@@ -19,7 +23,7 @@ int see_more();
  * @return
  */
 
-int main1( int ac ,char *av[]){
+int main( int ac ,char *av[]){
     FILE *fp;
     if  ( ac == 1)
         do_more(fp);

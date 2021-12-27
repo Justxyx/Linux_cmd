@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/01more.c" "CMakeFiles/Linux_cmd.dir/01more.c.o" "gcc" "CMakeFiles/Linux_cmd.dir/01more.c.o.d"
   "/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/02more.c" "CMakeFiles/Linux_cmd.dir/02more.c.o" "gcc" "CMakeFiles/Linux_cmd.dir/02more.c.o.d"
-  "/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test.c" "CMakeFiles/Linux_cmd.dir/test.c.o" "gcc" "CMakeFiles/Linux_cmd.dir/test.c.o.d"
+  "/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/main.c" "CMakeFiles/Linux_cmd.dir/main.c.o" "gcc" "CMakeFiles/Linux_cmd.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

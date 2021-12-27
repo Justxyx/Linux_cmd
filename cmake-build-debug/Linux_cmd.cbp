@@ -82,7 +82,7 @@
 		<Unit filename="/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/cmake-build-debug/02more.c">
 			<Option target="Linux_cmd"/>
 		</Unit>
-		<Unit filename="/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/test.c">
+		<Unit filename="/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/main.c">
 			<Option target="Linux_cmd"/>
 		</Unit>
 		<Unit filename="/Users/xiaoyingxiong/projects/ClionProjects/Linux_cmd/CMakeLists.txt">

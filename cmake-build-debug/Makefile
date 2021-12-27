@@ -177,29 +177,29 @@ Linux_cmd/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/02more.c.s
 .PHONY : 02more.c.s
 
-test.o: test.c.o
-.PHONY : test.o
+main.o: main.c.o
+.PHONY : main.o
 
 # target to build an object file
-test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/test.c.o
-.PHONY : test.c.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/main.c.o
+.PHONY : main.c.o
 
-test.i: test.c.i
-.PHONY : test.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/test.c.i
-.PHONY : test.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/main.c.i
+.PHONY : main.c.i
 
-test.s: test.c.s
-.PHONY : test.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/test.c.s
-.PHONY : test.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Linux_cmd.dir/build.make CMakeFiles/Linux_cmd.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -216,9 +216,9 @@ help:
 	@echo "... 02more.o"
 	@echo "... 02more.i"
 	@echo "... 02more.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

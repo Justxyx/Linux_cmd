@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "01more.c",
+			"path" : "main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -110,7 +110,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test.c",
+			"path" : "01more.c",
 			"sourceGroupIndex" : 0
 		}
 	],
