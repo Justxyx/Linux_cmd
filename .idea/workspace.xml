@@ -12,7 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f0dc76a-df14-4dc1-96ee-e78cb686df5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/p3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01more.c" beforeDir="false" afterPath="$PROJECT_DIR$/01_2_more.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02more.c" beforeDir="false" afterPath="$PROJECT_DIR$/01_1_more.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03who.c" beforeDir="false" afterPath="$PROJECT_DIR$/02_1_who.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04cp.c" beforeDir="false" afterPath="$PROJECT_DIR$/02_2_cp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05ls.c" beforeDir="false" afterPath="$PROJECT_DIR$/03_1_ls.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06ls.c" beforeDir="false" afterPath="$PROJECT_DIR$/03_2_ls.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07pwd.c" beforeDir="false" afterPath="$PROJECT_DIR$/04_1_pwd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +36,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +65,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -78,6 +96,7 @@
       <workItem from="1640577598250" duration="1715000" />
       <workItem from="1640654490231" duration="609000" />
       <workItem from="1640658311992" duration="2000" />
+      <workItem from="1641262903204" duration="6840000" />
     </task>
     <servers />
   </component>
